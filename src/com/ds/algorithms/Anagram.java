@@ -8,11 +8,11 @@ import java.util.Arrays;
  * @since 2021-08-26
  */
 public class Anagram {
-    /**
-     * Method to check whether two strings are anagram
-     * @param str1
-     * @param str2
-     */
+    	/**
+   	 * Method to check whether two strings are anagram
+    	 * @param str1
+     	 * @param str2
+     	 */
 	static boolean Anagram(char[] str1, char[] str2) {
 		// taking length of both strings
 		int n1 = str1.length;
@@ -31,11 +31,11 @@ public class Anagram {
 		return true;
 	}
 
-    /**
-     * Main method which have 2 string arrays
-     * and checks the strings are anagram or not by calling Anagram method
-     * @param args unused
-     */
+   	 /**
+     	  * Main method which have 2 string arrays
+     	  * and checks the strings are anagram or not by calling Anagram method
+     	  * @param args unused
+     	  */
 	public static void main(String args[]) {
 		char str1[] = { 'a', 'b', 'c', 'd' };
 		char str2[] = { 'd', 'c', 'b', 'a' };
