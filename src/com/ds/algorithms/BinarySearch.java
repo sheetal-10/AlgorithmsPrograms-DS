@@ -34,7 +34,7 @@ public class BinarySearch {
 		return -1;
 	}
 	
-    /**
+   	/**
 	 * Sorting the word list and 
 	 * doing the binary search
 	 * printing the result
